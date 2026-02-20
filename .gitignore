@@ -1,0 +1,59 @@
+# Java / Maven
+tradesim-api/tradesim-api/target/
+tradesim-api/tradesim-api/.mvn/
+tradesim-api/tradesim-api/mvnw
+tradesim-api/tradesim-api/mvnw.cmd
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Node / React
+tradesim-frontend/node_modules/
+tradesim-frontend/dist/
+tradesim-frontend/.env
+tradesim-frontend/.env.local
+tradesim-frontend/npm-debug.log*
+tradesim-frontend/yarn-debug.log*
+tradesim-frontend/yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive - NEVER COMMIT THESE!
+application-local.properties
+application-prod.properties
+*.pem
+*.key
+.env
+.env.local
+.env.production
+.env.development
+
+# Secrets
+secrets/
+*.secret
+*.credentials
